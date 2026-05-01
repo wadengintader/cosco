@@ -3,7 +3,7 @@
 import React from 'react';
 import { Gift, Sparkles } from 'lucide-react';
 
-const CRUMBL_URL = "https://giftclick.org/aff_c?offer_id=1524&aff_id=44723&source=Bestbuy";
+const CRUMBL_URL = "https://giftclick.org/aff_c?offer_id=4409&aff_id=44723&source=Costco";
 
 const HeroBranding = () => {
   return (
@@ -18,7 +18,7 @@ const HeroBranding = () => {
           <div key={i} className="flex items-center mx-4">
             <img 
               src="https://i.imgur.com/Quntd7A.png" 
-              alt="Crumbl Cookies Logo" 
+              alt="Costco Logo" 
               className="h-8 sm:h-10 w-auto object-contain"
             />
           </div>
@@ -27,7 +27,7 @@ const HeroBranding = () => {
           <div key={`dup-${i}`} className="flex items-center mx-4">
             <img 
               src="https://i.imgur.com/Quntd7A.png" 
-              alt="Crumbl Cookies Logo" 
+              alt="Costco Logo" 
               className="h-8 sm:h-10 w-auto object-contain"
             />
           </div>
@@ -44,8 +44,8 @@ const HeroBranding = () => {
             {/* Main Card Image */}
             <div className="relative z-10 w-[240px] sm:w-[320px] mx-auto transition-transform duration-500 group-hover:scale-105">
               <img 
-                src="https://i.imgur.com/unJ6lSt.png" 
-                alt="Crumbl $100 Gift Card" 
+                src="https://i.imgur.com/dvnEix6.png" 
+                alt="Costco $500 Gift Card" 
                 className="w-full h-auto"
               />
               
@@ -62,7 +62,7 @@ const HeroBranding = () => {
         <div className="relative">
             <h1 className="text-[21px] md:text-[27px] font-extrabold leading-tight tracking-tight flex items-center justify-center gap-x-2 flex-wrap font-poppins">
             <span className="text-[#182C54]">Unlock</span>
-            <span className="text-[#0046be]">Best Buy Rewards</span>
+            <span className="text-[#e31936]">Costco Rewards</span>
             <div className="flex items-center -ml-1">
               <Gift className="w-6 h-6 text-[#0046be] fill-transparent" />
             </div>
@@ -71,11 +71,11 @@ const HeroBranding = () => {
         
         {/* Sub-headline */}
         <div className="flex items-center justify-center gap-2 w-full text-center">
-          <Sparkles className="w-3.5 h-3.5 text-[#ffc220] shrink-0 animate-sparkle" />
+          <Sparkles className="w-3.5 h-3.5 text-[#005dab] shrink-0 animate-sparkle" />
           <p className="text-[13px] sm:text-sm md:text-[15px] text-[#182C54]/90 font-medium leading-relaxed whitespace-nowrap font-poppins">
-            Here&apos;s how to claim your <span className="text-[#0046be] font-bold">$750 gift card</span>
+            Here&apos;s how to claim your <span className="text-[#005dab] font-bold">$500 gift card</span>
           </p>
-          <Sparkles className="w-3.5 h-3.5 text-[#ffc220] shrink-0 animate-sparkle" />
+          <Sparkles className="w-3.5 h-3.5 text-[#005dab] shrink-0 animate-sparkle" />
         </div>
       </div>
     </div>
